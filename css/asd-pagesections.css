@@ -1,0 +1,53 @@
+/* -----------------------------------------------------------------------
+ *  *      Page Section Format
+ *   * ----------------------------------------------------------------------- */
+
+.asd-pagesections {
+}
+.asd-pagesections .article-image {
+    margin-top:10px;
+}
+.asd-pagesections h1 , 
+.asd-pagesections h2 { 
+    margin-top:0px;
+}
+
+@media (max-width: 767px) {
+        .asd-pagesections {
+            padding-bottom:40px;
+            padding-top:25px;
+        }
+        .asd-pagesections div {
+        }
+        .asd-pagesections .alignleft img {
+                padding-right: 20px;
+                margin-bottom: 20px;
+        }
+        .asd-pagesections .alignright img {
+                padding-left: 20px;
+                margin-bottom: 20px;
+        }
+}
+@media (min-width: 768px) {
+        .asd-pagesections {
+            padding-bottom:50px;
+            padding-top:20px;
+        }
+        .asd-pagesections div {
+        }
+        .asd-pagesections .alignleft img {
+              padding-right:30px;
+        }
+        .asd-pagesections .alignright img {
+              padding-left:30px;
+        }
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
+@media (min-width:1600px ) {
+}
+@media (min-width:1900px ) {
+}
+

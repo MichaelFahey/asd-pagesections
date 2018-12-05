@@ -1,0 +1,19 @@
+tr.cuztom-cell {
+
+}
+
+tr.cuztom-cell th {
+   width:100px;
+}
+
+tr.cuztom-cell textarea {
+   width:100%!important;
+}
+
+.wp-block-gutenberg-boilerplate-es5-hello-world-step-01 {
+    color: green;
+    background: #cfc;
+    border: 2px solid #9c9;
+    padding: 20px;
+}
+
