@@ -205,6 +205,7 @@ if ( is_admin() ) {
  *   enqueue some CSS for this custom post type
  *  --------------------------------------------------------------------------*/
 function asd_pagesections_enqueues() {
+	global $asd_pagesections_version;
 	wp_enqueue_style( 'asd_pagesections', ASD_PAGESECTIONS_URL . 'css/asd-pagesections.css', array(), $asd_pagesections_version );
 }
 add_action( 'wp_enqueue_scripts', 'asd_pagesections_enqueues' );
@@ -215,6 +216,7 @@ add_action( 'wp_enqueue_scripts', 'asd_pagesections_enqueues' );
  *   enqueue some CSS for cuztom controls in dashboard, admin_init action
  *  --------------------------------------------------------------------------*/
 function admin_enqueue_cuztom() {
+	global $asd_pagesections_version;
 	wp_enqueue_style( 'asd-admin-cuztom', ASD_PAGESECTIONS_URL . '/css/asd-admin-cuztom.css', array(), $asd_pagesections_version );
 }
 add_action( 'admin_init', 'admin_enqueue_cuztom' );
